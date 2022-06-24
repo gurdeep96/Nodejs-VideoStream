@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Video Streaming With Node</title>
+        <style>
+            body {
+               
+                background-color: rgba(3, 16, 1, 0.262);
+                
+                padding-left: 15%;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Local Video Streaming with chuck size 1 MB</h3>
+        <video id="videoPlayer" width="50%" controls muted="muted" autoplay>
+            <source src="/video" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+        <br>
+        <h3>Online Video Streaming from internet</h3>
+        <video id="videoPlayer" width="50%" controls muted="muted" autoplay>
+            <source src="/video-online" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+    </body>
+</html>
